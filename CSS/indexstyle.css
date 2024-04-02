@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+
+}
+.top-header{
+    padding: 3px 1px; /*top and bottom paddings are 5px, right and left paddings are 0px.*/
+    border-bottom: 1px solid rgb(151, 105, 105); /*Shorthand property that defines the border-width, border-style and border-color of an element’s bottom border in a single declaration*/
+    box-shadow: 0px 2px 5px 0px grey;
+    text-decoration: none;
+    max-width: 100%;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.nav-item > a {
+    color: yellow;
+}
+
+
+.qmeet{
+    color: rgb(58, 58, 86);
+}
+
+.headqoute{
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(58, 58, 86);
+    width: 80%;
+    text-decoration: none;
+}
+
+.nav-item{
+    padding: 10px 10px;
+    font-size: 20px;
+    color: rgb(58, 58, 86);
+    text-decoration: none;
+}
+
+.ytp-embed-error .ytp-error {
+    display: inline-flex;
+}
+
+.header-menu{
+    max-width: 100%;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+    position: relative;
+    box-shadow: 0px 2px 5px 0px grey;/*for making the shadow under menu*/
+    background-size: cover;
+}
+
+.College-name{ /*To locate the collge name in my desired location*/
+    padding: 1px 11px;
+    font-size: 37px;
+}
+
+.college-des{
+    padding-left: 10px;
+    font-size: 17px;
+   line-height: 32px;
+}
+
+.video-section {
+    float: left; /* Align video section to the left */
+    margin-right: 20px; /* Add some margin between video section and other content */
+}
+
+.des1-left-head{
+    background-color: aqua;
+    border-radius: 10px;
+    text-shadow: rgb(84, 85, 157);
+}
+
+.des1-left, .des1-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.des1-left{
+    float: left;
+    display: inline-flex;
+    padding: 30px 50% 0px 78px;
+}
+
+.des1-right{
+    margin-top: -42%;
+    margin-right: 16%;
+    padding: 34px 1px 9px 13px;
+}
+
+@media (max-width: 1199px) {
+    .des1-left, .des1-right {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .des1-right {
+        margin-top: 30px; /* Adjust spacing between des1-left and des1-right */
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.des1-right-pic{
+    float: right;
+    margin-top: -110px;
+}
+
+.principalbox{
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.principalicon{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -50px;
+    border: 5px solid  #add618;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.principaltextbox{
+    background: #add618;
+    color: #ffffff;
+    padding: 40px 15px 35px;
+    border-bottom: 5px solid #1e1088;
+    border-radius: 5px 5px 0 0;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #89d1e9, #02bbfe, #07056b);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@media (max-width: 1199px) {
+    .custom-nav {
+        flex-direction: column;
+    }
+    
+    .custom-nav .nav-item {
+        margin-bottom: 5px;
+    }
+    
+    .custom-nav .nav-link {
+        padding: .5rem 1rem;
+    }
+    
+    .custom-nav .dropdown-toggle::after {
+        display: none;
+    }
+    
+    .custom-nav .dropdown-menu {
+        position: absolute;
+        width: auto;
+        margin: 0;
+        background-color: #fff; /* Change the background color as needed */
+        border: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+        border-radius: 5px; /* Add some border radius */
+        z-index: 1000; /* Ensure the dropdown appears above other content */
+    }
+    
+    .custom-nav .dropdown-menu .dropdown-item {
+        display: block;
+        width: 100%;
+        padding: .5rem 1rem;
+        clear: both;
+        font-weight: normal;
+        color: #212529;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+    }
+}
+
+@media (min-width: 1199px) {
+    .des1-left,
+    .des1-right {
+        margin: 0;
+    }
+    .des1-right {
+        margin-top: 30px; /* Adjust spacing between des1-left and des1-right */
+    }
+}
+
+@media (min-width: 1200px) {
+    .des1-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+  .custom-nav .nav-item:hover .nav-link {
+        box-shadow: 0 0 5px rgb(96, 166, 231);
+        border-radius: 7px;
+        transition: all 0.3s ease;
+    }
